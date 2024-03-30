@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:text="Register Here"
+    android:textSize="24sp"
+android:textStyle="bold"
+    />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter Name"
+        android:id="@+id/reg_name1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter Email"
+        android:id="@+id/reg_email1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter Password"
+        android:inputType="numberPassword"
+        android:id="@+id/reg_password1"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter Phone No"
+        android:inputType="phone"
+        android:id="@+id/reg_phone1"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="registerMethod"
+        />
+
+
+
+</LinearLayout>
